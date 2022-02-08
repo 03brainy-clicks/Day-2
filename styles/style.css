@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+/* ---------------------------container-----------------------  */
+.container {
+  width: 70%;
+  min-width: 350px;
+  margin: 0px auto;
+  border: solid 1px #bbbbbb;
+  padding: 20px;
+}
+
+.container header {
+  text-align: center;
+}
+
+/* ----------------------info ----------------- */
+.container .info {
+  border: solid 1px #bbbbbb;
+  padding: 20px;
+  margin: 20px;
+}
+/* ----------------------/ info ----------------- */
+/* ----------------------image ----------------- */
+.container .image {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px #bbbbbb;
+}
+
+.container .image img {
+  width: 60%;
+  min-width: 25 0px;
+}
+
+.container .image h3 {
+  color: black;
+  background-color: #b6b6b6;
+  padding: 10px;
+}
+/* ----------------------/ image----------------- */
+/* ---------------------- article ----------------- */
+.container .articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px #bbbbbb;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/* ----------------------/ article----------------- */
+/* ---------------------- thanks ----------------- */
+.container .thanks {
+  text-align: center;
+  border: solid 1px #bbbbbb;
+  padding: 20px;
+  margin: 20px;
+}
+
+.container .thanks p {
+  font-size: 1.2rem;
+}
+
+/* ----------------------/ thanks ----------------- */
+/* ---------------------- read  ----------------- */
+.container .read {
+  text-align: center;
+}
+/* ----------------------/ read ----------------- */
+
+/* --------------------------- / container-----------------------  */
